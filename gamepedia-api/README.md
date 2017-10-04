@@ -1,5 +1,4 @@
 ﻿### Unofficial Gamepedia API
-# NOTE: WORK IN PROGESS
 
 ##DOCUMENTATION
 1. How to install
