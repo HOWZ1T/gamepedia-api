@@ -1,0 +1,9 @@
+{
+  "name": "gamepedia-api",
+  "version": "0.0.0",
+  "description": "gamepedia-api",
+  "main": "app.js",
+  "author": {
+    "name": "Dylan"
+  }
+}
