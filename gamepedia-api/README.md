@@ -1,14 +1,14 @@
 ﻿### Unofficial Gamepedia API
 
-##DOCUMENTATION
+## DOCUMENTATION
 1. How to install
 2. Classes
 3. Functions
 
-#1 How to install
+# 1 How to install
 In the command-line use: npm install gamepedia-api --save
 
-#2 Classes
+# 2 Classes
 -Wiki
 	-constructor(url_, imageURL_, summary_, edits_, contributors_, articles_)
 		-[STRING] url_ is the url of the wiki page
@@ -18,13 +18,13 @@ In the command-line use: npm install gamepedia-api --save
 		-[NUMBER] contributors_ is the contributors of the wiki page
 		-[NUMBER] articles_ is the articles of the wiki page
 
-#3 Functions
+# 3 Functions
 -search(search_term, page, timeout [optional])
 	-Description: Returns a Promise which resolves in an array of wikis matching the search term from the specified page.
 	-Parameters:
 		-[STRING] search_term
-		-[NUMBER] page -the page number which is searched, e.g: 1
-		-[NUMBER] [OPTIONAL] timeout -in seconds, defaults to 10
+		-[NUMBER] page the page number which is searched, e.g: 1
+		-[NUMBER] [OPTIONAL] timeout in seconds, defaults to 10
 	-example:
 		'''javascript
 		let search = require('gamepedia-api').search;
@@ -42,8 +42,8 @@ In the command-line use: npm install gamepedia-api --save
 	-Description: Returns a Promise which resolves in an array of wikis matching the search term from the specified page-range.
 	-Parameters:
 		-[STRING] search_term
-		-[NUMBER] pageStart -the page to start at
-		-[NUMBER] pageEnd - the page to end at (inclusive)
+		-[NUMBER] pageStart the page to start at
+		-[NUMBER] pageEnd the page to end at (inclusive)
 		-[NUMBER] [OPTIONAL] timeout -in seconds, defaults to 10
 	-example:
 		'''javascript
